@@ -966,11 +966,11 @@ footer .footer-right-content {
   }
 
   .logo-title {
-    font-size: 24px;
+    font-size: 32px;
   }
 
   .logo-header {
-    font-size: 24px;
+    font-size: 32px;
     left: 42%;
   }
 
@@ -1076,14 +1076,6 @@ footer .footer-right-content {
     padding-top: 40px;
   }
 
-  .frame {
-    /* margin-top: -20%;
-    margin-left: 10%;
-    width: 90%;
-    z-index: -2; */
-    display: none;
-  }
-
   .rounded {
     display: none;
   }
@@ -1112,7 +1104,7 @@ footer .footer-right-content {
 
   .frame {
     display: initial;
-    width: 100%;
+    width: 80%;
   }
 
   .rounded-text {
