@@ -969,6 +969,10 @@ footer .footer-right-content {
     font-size: 1rem;
   }
 
+  .logo-header {
+    font-size: 1rem;
+  }
+
   .logo-title {
     position: relative;
     display: inline-block;
