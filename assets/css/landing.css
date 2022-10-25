@@ -966,11 +966,12 @@ footer .footer-right-content {
   }
 
   .logo-title {
-    font-size: 1rem;
+    font-size: 24px;
   }
 
   .logo-header {
-    font-size: 1rem;
+    font-size: 24px;
+    left: 42%;
   }
 
   .logo-title {
