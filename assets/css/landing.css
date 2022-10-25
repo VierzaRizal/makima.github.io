@@ -17,6 +17,7 @@ body {
   font-size: 1.2rem;
   overscroll-behavior-y: none;
   overscroll-behavior: none;
+  overflow-x: hidden;
 }
 
 .container {
@@ -491,7 +492,6 @@ header {
 }
 
 .card-content .subheading {
-  overflow: hidden;
   line-height: 2rem;
   max-height: 8rem;
   -webkit-box-orient: vertical;
@@ -962,6 +962,7 @@ footer .footer-right-content {
   /* intro start */
 
   .intro {
+    width: 100%;
     z-index: 999;
   }
 
@@ -971,7 +972,7 @@ footer .footer-right-content {
 
   .logo-header {
     font-size: 32px;
-    left: 42%;
+    left: 50%;
   }
 
   .logo-title {
@@ -1276,5 +1277,14 @@ footer .footer-right-content {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
   }
 }
