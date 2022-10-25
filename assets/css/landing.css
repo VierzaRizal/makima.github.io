@@ -966,6 +966,10 @@ footer .footer-right-content {
   }
 
   .logo-title {
+    font-size: 1rem;
+  }
+
+  .logo-title {
     position: relative;
     display: inline-block;
     bottom: -20px;
